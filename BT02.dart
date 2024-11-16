@@ -4,7 +4,7 @@ import 'dart:math';
 void main() {
   double a, b, c, delta;
 
-  // Nhập hệ số a, đảm bảo a khác 0
+  // Nhập hệ số a
   do {
     print('Nhập hệ số a (a khác 0): ');
     a = double.parse(stdin.readLineSync()!);
